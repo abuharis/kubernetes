@@ -53,4 +53,4 @@
 - [Install Kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#check-required-ports)
 - [Creating cluster](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
 
-![Kubernetes logo](https://tadviser.com/index.php/Product:Kubernetes "k8s")
+![Kubernetes logo](./ks.png "k8s")
