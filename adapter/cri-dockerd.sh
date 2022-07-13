@@ -28,6 +28,8 @@ else
     echo "Installation failed"
 fi
 
+echo -e "\n"
+
 echo "***************Installing CRI-DOCKERD adapter******************"
 echo -e "\n"
 
