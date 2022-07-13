@@ -64,6 +64,7 @@ kubeadm token create --print-join-command
 
 - [Prerequisites](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 - [Install docker](https://docs.docker.com/engine/install/ubuntu/)
+- [Install GO](https://go.dev/doc/install)
 - [cri-dockerd](https://github.com/Mirantis/cri-dockerd)
 - [Install Kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#check-required-ports)
 - [Creating cluster](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
