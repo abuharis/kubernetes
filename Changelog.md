@@ -14,3 +14,4 @@ All changes to K8s has been logged here.
 
 ### changed
 - Few line adjustements in echo statement
+- Changelog updated
