@@ -19,7 +19,7 @@ echo "Let's begin"
 echo -e "\n"
 
 echo "Uninstall any old version to avoid conflicts"
-sudo apt-get remove \
+sudo apt-get -y remove \
         docker \
         docker-engine \
         docker.io \
@@ -28,8 +28,8 @@ sudo apt-get remove \
 echo -e "\n"
 
 echo "Installing docker using repository. Setting up repository..."
-sudo apt-get update
-sudo apt-get install \
+sudo apt-get -y update
+sudo apt-get -y install \
         ca-certificates \
         curl \
         gnupg \
@@ -48,8 +48,8 @@ echo \
 echo -e "\n"
 
 echo "Installing docker engine..."
-sudo apt-get update
-sudo apt-get install \
+sudo apt-get -y update
+sudo apt-get -y install \
         docker-ce \
         docker-ce-cli \
         containerd.io \
