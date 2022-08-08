@@ -58,6 +58,19 @@ kubeadm join [master_ip]:6443 --token [from master node] --discovery-token-ca-ce
 kubeadm token create --print-join-command
 ```
 
+### You must deploy a Container Network Interface (CNI) based Pod network add-on so that your Pods can communicate with each other. 
+### Cluster DNS (CoreDNS) will not start up before a network is installed.
+
+### Supported plugins:
+- Calico
+- Cilium
+- Weave-net
+
+### Install weave
+```
+ kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
+```
+
 ---
 
 ## _References_
