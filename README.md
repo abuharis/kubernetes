@@ -57,7 +57,7 @@ kubeadm join [master_ip]:6443 --token [from master node] --discovery-token-ca-ce
 ```
 kubeadm token create --print-join-command
 ```
-
+## NotnotReady solution
 ### You must deploy a Container Network Interface (CNI) based Pod network add-on so that your Pods can communicate with each other. 
 ### Cluster DNS (CoreDNS) will not start up before a network is installed.
 
